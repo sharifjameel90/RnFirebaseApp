@@ -131,7 +131,7 @@ auth()
 
   return (
     <View style={styles.container}>
-      <Text style={{marginBottom: 20}}>Welcome {user.email}</Text>
+      <Text style={{marginBottom: 20}}>Welcome: {user.email}</Text>
       <Button style={styles.button} onPress={() => {
         setEmail('')
         setPassword('')
